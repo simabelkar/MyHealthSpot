@@ -4,7 +4,11 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
+<<<<<<< HEAD
           <StartPageUrl>forum.html</StartPageUrl>
+=======
+          <StartPageUrl>home.html</StartPageUrl>
+>>>>>>> f109ab412d844256f997b5d1d785d5b4403f54be
           <StartAction>SpecificPage</StartAction>
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
