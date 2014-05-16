@@ -6,3 +6,7 @@ C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\bi
 C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\bin\MyHealthSpot.pdb
 C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\obj\Debug\MyHealthSpot.dll
 C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\obj\Debug\MyHealthSpot.pdb
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\bin\MyHealthSpot.dll
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\bin\MyHealthSpot.pdb
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\obj\Debug\MyHealthSpot.dll
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\obj\Debug\MyHealthSpot.pdb
