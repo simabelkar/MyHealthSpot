@@ -4,18 +4,9 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <StartPageUrl>forum.html</StartPageUrl>
-=======
-          <StartPageUrl>home.html</StartPageUrl>
->>>>>>> f109ab412d844256f997b5d1d785d5b4403f54be
-          <StartAction>SpecificPage</StartAction>
-=======
           <StartPageUrl>
           </StartPageUrl>
           <StartAction>CurrentPage</StartAction>
->>>>>>> parent of 80ce3d9... change page titles
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
           <NativeDebugging>False</NativeDebugging>

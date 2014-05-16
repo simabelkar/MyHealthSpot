@@ -55,7 +55,6 @@
     <Content Include="404.html" />
     <Content Include="forum.html" />
     <Content Include="App_Data\Northwind.mdb" />
-    <Content Include="images\slider\Motivation.jpg" />
     <Content Include="profile.html" />
     <Content Include="css\camera.css" />
     <Content Include="css\jquery.lightbox.css" />

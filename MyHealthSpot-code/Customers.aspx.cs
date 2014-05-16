@@ -25,7 +25,7 @@ namespace sima
 
         protected void bb1_Click(object sender, EventArgs e)
         {
-            string strDSN = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\sbelkar\\Documents\\GitHub\\MyHealthSpot\\MyHealthSpot-code\\MyHealthSpot\\App_Data\\Northwind.mdb";
+            string strDSN = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\sbelkar\\Documents\\Visual Studio 2010\\Projects\\MyHealthSpot\\MyHealthSpot\\App_Data\\Northwind.mdb";
             string strSQL = "insert into Users values ('" + userName.Value + "','" + Password.Value + "','" + userEmail.Value + "','" + firstName.Value + "','" + lastName.Value + "','" + userPhone.Value + "')";
             // create Objects of ADOConnection and ADOCommand
             OleDbConnection myConn = new OleDbConnection(strDSN);

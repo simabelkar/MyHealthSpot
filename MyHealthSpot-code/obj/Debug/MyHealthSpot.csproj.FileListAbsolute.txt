@@ -2,7 +2,4 @@ C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot
 C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\bin\MyHealthSpot.pdb
 C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\obj\Debug\MyHealthSpot.dll
 C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\obj\Debug\MyHealthSpot.pdb
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\bin\MyHealthSpot.dll
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\bin\MyHealthSpot.pdb
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\obj\Debug\MyHealthSpot.dll
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\MyHealthSpot\obj\Debug\MyHealthSpot.pdb
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\obj\Debug\MyHealthSpot.csprojResolveAssemblyReference.cache
