@@ -1,0 +1,5 @@
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\bin\MyHealthSpot.dll
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\bin\MyHealthSpot.pdb
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\obj\Debug\MyHealthSpot.dll
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\obj\Debug\MyHealthSpot.pdb
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot\MyHealthSpot\obj\Debug\MyHealthSpot.csprojResolveAssemblyReference.cache
