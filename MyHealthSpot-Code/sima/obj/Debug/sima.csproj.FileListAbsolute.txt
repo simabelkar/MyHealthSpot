@@ -1,0 +1,15 @@
+C:\Tools\Visual Studio 2010\sima\sima\bin\sima.dll
+C:\Tools\Visual Studio 2010\sima\sima\bin\sima.pdb
+C:\Tools\Visual Studio 2010\sima\sima\obj\Debug\sima.dll
+C:\Tools\Visual Studio 2010\sima\sima\obj\Debug\sima.pdb
+C:\Tools\Visual Studio 2010\sima\sima\obj\Debug\sima.csprojResolveAssemblyReference.cache
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Omri\sima\bin\sima.dll
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Omri\sima\bin\sima.pdb
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Omri\sima\obj\Debug\sima.csprojResolveAssemblyReference.cache
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Omri\sima\obj\Debug\sima.dll
+C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Omri\sima\obj\Debug\sima.pdb
+C:\Tools\Visual Studio 2010\MyHealthSpot-Omri\sima\bin\sima.dll
+C:\Tools\Visual Studio 2010\MyHealthSpot-Omri\sima\bin\sima.pdb
+C:\Tools\Visual Studio 2010\MyHealthSpot-Omri\sima\obj\Debug\sima.csprojResolveAssemblyReference.cache
+C:\Tools\Visual Studio 2010\MyHealthSpot-Omri\sima\obj\Debug\sima.dll
+C:\Tools\Visual Studio 2010\MyHealthSpot-Omri\sima\obj\Debug\sima.pdb
