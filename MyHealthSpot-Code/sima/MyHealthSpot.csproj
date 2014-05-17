@@ -60,6 +60,10 @@
     <Content Include="css\jquery.lightbox.css" />
     <Content Include="css\matkonim.css" />
     <Content Include="css\style.css" />
+    <Content Include="images\logo1.png" />
+    <Content Include="images\logo2.png" />
+    <Content Include="images\slider\foodPyramid.jpg" />
+    <Content Include="images\slider\motivation.jpg" />
     <Content Include="Register.aspx" />
     <Content Include="details.html" />
     <Content Include="forum.html" />
@@ -136,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="images\logo.psd" />
+    <None Include="images\logo1.psd" />
     <None Include="images\plus_btn.psd" />
     <None Include="images\slider\Thumbs.db" />
     <None Include="images\Thumbs.db" />

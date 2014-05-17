@@ -82,7 +82,8 @@
                             <tr>
 						         <td colspan="2">
                                     <div>
-						   		        <span><asp:Button ID="bb1" Text="Submit" runat="server" onclick="bb1_Click" />&nbsp&nbsp&nbsp
+						   		        <span><asp:Button ID="bb1" Text="Submit" runat="server" onclick="bb1_Click" />
+                                        <asp:Button ID="btnBack" Text="Back" runat="server" onclick="btnBack_Click" />&nbsp&nbsp&nbsp
                                         <asp:Label ID="errLabel" Text="" runat="server"></asp:Label></span>
 						            </div>
                                 </td>

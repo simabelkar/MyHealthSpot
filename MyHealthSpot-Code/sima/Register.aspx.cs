@@ -46,5 +46,10 @@ namespace MyHealthSpot
                 errLabel.ForeColor = System.Drawing.Color.Red;
             }
         }
+
+        protected void btnBack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("home.html");
+        }
     }
 }

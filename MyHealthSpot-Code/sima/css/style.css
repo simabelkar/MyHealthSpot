@@ -60,7 +60,8 @@ h2{
 }
 .cssmenu > ul > li.active a{
 	color:#ffffff;
-	background: #CEDB32;
+	/*background: #CEDB32; changes by Aliza*/
+	background: #7cc810;
 }
 .cssmenu > ul > li span img {
 	vertical-align: middle;
@@ -90,10 +91,10 @@ h2{
 }
 /*end-menu*/
 .logo{
-	padding: 15px;
-	padding-right:30px;
+	padding:10px;
+	padding-right:0px;
 	float: left;
-	width: 100px;
+	width: 300px;
 }
 /*  GRID 1 OF THREE  */
 .grids_1_of_3{
@@ -124,7 +125,7 @@ h2{
 }
 .images_1_of_3  h3{
 	letter-spacing: 1px;
-	background: #CEDB32;
+	background: #7cc810;
 	color: #fff;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 2em;
@@ -261,7 +262,7 @@ h2{
 }
 .grid_1_of_1 h3{
 	letter-spacing: 1px;
-	color: #CEDB32;
+	color: #7cc810;
 	font-family: 'News Cycle', sans-serif;
 	font-size: 1.5em;
 	font-weight: normal;
@@ -477,7 +478,7 @@ h2{
 	text-align:center;
 }
 .page h3{
-	color: #CEDB32;
+	color: #7cc810;
 	font-family: 'News Cycle', sans-serif;
 	text-shadow: 0 1px 0 #A2A2A2;
 	font-size: 12em;
