@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyHealthSpot.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">       
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body dir="rtl">
+<div class="wrapper">
+<div class="wrap" style="width:80%">
+<div class="wrap_inner">
+    <div class="cssmenu">
+            <div class="logo">
+			        <h1><a href="home.html"><img src="images/logo4.png" alt=""/></a></h1>
+	        </div>
+			<ul>
+			    <li class="active"><a href="home.html"><span>עמוד הבית</span></a></li>
+			    <li><a href="articles.html"><span>כתבות</span></a></li>
+			    <li><a href="recipes.html"><span>מתכונים</span></a></li>
+			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
+			    <li class="last"><a href="profile.html"><span>פרופיל</span></a></li>
+			</ul>
+                
+           <div class="clear"></div>
+	    </div>
+    <div>
+        <table dir="rtl" style="background: #ffffff;  border-top:2px solid rgb(230,230,230); border-bottom:2px solid rgb(230,230,230);"  width="100%" align="center" >
+            <tr>
+                <td >
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+    
+            </tr>
+        </table>
+
+    </div>
+<div class="clear"></div>
+	<div class="footer1">
+		<div class="copy">
+			<p class="w3-link">Design by&nbsp; <a href="#"> MyHealthSpot team </a></p>
+		</div>
+		<div class="clear"></div>	
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
