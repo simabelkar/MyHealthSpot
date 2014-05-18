@@ -11,12 +11,20 @@
 <div class="wrapper">
 <div class="wrap" style="width:65%">
 <div class="wrap_inner">
+     <div class="cssmenu" dir="rtl">
+        <div class="logo">
+			    <h1><a href="home.html"><img src="images/logo4.png" alt=""/></a></h1>                                
+	    </div>
+     </div>
+     
+
+    
 	<!--start content-->
 	<div class="main">
 		<div class="section group">							
 		    <div class="col span_2_of_4" align="center">
 			    <div class="signup-form">
-				  	<h2>Register</h2>
+				  	<h2>רישום משתמש חדש</h2>
 					       <form id="f1" runat="server">
                            <table border="0" width="600px" style="margin-left:90px;">
                            <tr>
@@ -82,8 +90,8 @@
                             <tr>
 						         <td colspan="2">
                                     <div>
-						   		        <span><asp:Button ID="bb1" Text="Submit" runat="server" onclick="bb1_Click" />
-                                        <asp:Button ID="btnBack" Text="Back" runat="server" onclick="btnBack_Click" />&nbsp&nbsp&nbsp
+						   		        <span><asp:Button ID="bb1" Text="שלח" runat="server" onclick="bb1_Click" />
+                                        <asp:Button ID="btnBack" Text="חזרה" runat="server" onclick="btnBack_Click" />&nbsp&nbsp&nbsp
                                         <asp:Label ID="errLabel" Text="" runat="server"></asp:Label></span>
 						            </div>
                                 </td>

@@ -73,7 +73,9 @@ h2{
 	display: block;
 	font-size:18px;
 	line-height: 4.8em;
-	padding: 10px 32px;
+	/* line-height: 4.8em;
+    padding: 10px 32px; Aliza */
+	padding: 5px 10px;
 	color: #555555;
 	letter-spacing: 1px;
 }
@@ -219,7 +221,8 @@ h2{
 	text-decoration: none;
 }
 .button a:hover{
-	background: #B1BD23;
+	/*background: #B1BD23;*/
+	background: #7cc810;
 	border: 1px solid #B1B62B;
 	-webkit-transition: 0.9s;
 	-moz-transition: 0.9s;
@@ -244,7 +247,8 @@ h2{
 	width:14%;
 	float:left;
 	height: 100px;
-	background: #B1BD23;
+	/*background: #B1BD23;*/
+	background: #7cc810;
 	padding:4%;
 }
 .images_1_of_1 p{
@@ -289,7 +293,8 @@ h2{
 	text-transform: uppercase;
 }
 .copy p a{
-	color: #B1BD23;
+	/*color: #B1BD23;*/
+	color: #7cc810;
 }
 .copy p a:hover{
 	color: #736761;
@@ -458,7 +463,8 @@ h2{
 }
 .signup-form input[type="submit"]:hover{
 	outline:none;
-	background: #B1BD23;
+	/*background: #B1BD23;*/
+	background: #7cc810;
 	border: 1px solid #B1B62B;
 	-webkit-transition: 0.9s;
 	-moz-transition: 0.9s;

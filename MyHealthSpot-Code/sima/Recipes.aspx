@@ -14,16 +14,16 @@
 <div class="wrap_inner">
 	<div class="cssmenu">
 			<ul>
-			   <li><a href="index.html"><span>Home</span></a></li>
-			   <li><a href="about.html"><span>About us</span></a></li>
-			   <li><a href="product.html"><span>Products</span></a></li>
-			   <li  class="active has-sub"><a href="service.html"><span>Services</span></a></li>
-			   <li class="last"><a href="contact.html"><span>Contact</span></a></li>
+			   <li ><a href="home.html"><span>עמוד הבית</span></a></li>
+			    <li><a href="articles.html"><span>כתבות</span></a></li>
+			    <li class="active"><a href="recipes.html"><span>מתכונים</span></a></li>
+			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
+			    <li class="last"><a href="profile.html"><span>פרופיל</span></a></li>
 			 </ul>
              <div class="clear"></div>
 	</div>
 	<div class="logo">
-			<h1><a href="index.html"><img src="images/logo.png" alt=""/></a></h1>
+			<h1><a href="home.html"><img src="images/logo4.png" alt=""/></a></h1>
 	</div>
     <table width="90%" cellspacing="0" cellpadding="0" border="0">
     <tbody><tr><td></td></tr><tr><td>
