@@ -14,7 +14,7 @@
 <div class="wrap_inner">
 	<div class="cssmenu">
 			<ul>
-			   <li ><a href="home.html"><span>עמוד הבית</span></a></li>
+			   <li ><a href="Home.aspx"><span>עמוד הבית</span></a></li>
 			    <li><a href="articles.html"><span>כתבות</span></a></li>
 			    <li class="active"><a href="recipes.html"><span>מתכונים</span></a></li>
 			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
@@ -23,7 +23,7 @@
              <div class="clear"></div>
 	</div>
 	<div class="logo">
-			<h1><a href="home.html"><img src="images/logo4.png" alt=""/></a></h1>
+			<h1><a href="Home.aspx"><img src="images/logo4.png" alt=""/></a></h1>
 	</div>
     <table width="90%" cellspacing="0" cellpadding="0" border="0">
     <tbody><tr><td></td></tr><tr><td>

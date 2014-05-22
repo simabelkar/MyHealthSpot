@@ -113,10 +113,10 @@
 <div class="wrap_inner">
 	<div class="cssmenu" dir="rtl">
     	<div class="logo">
-			<h1><a href="home.html"><img src="images/logo4.png" alt="" /></a></h1>
+			<h1><a href="Home.aspx"><img src="images/logo4.png" alt="" /></a></h1>
 	    </div>
 			<ul>
-			   <li ><a href="home.html"><span>עמוד הבית</span></a></li>
+			   <li ><a href="Home.aspx"><span>עמוד הבית</span></a></li>
 			    <li><a href="articles.html"><span>כתבות</span></a></li>
                 <li><a href=""><span>סרטוני וידאו</span></a></li>
                 <li class="active"><a href="UserPhotos.aspx"><span>אינסטגרם</span></a></li>
@@ -128,8 +128,7 @@
 	</div>
     
     <div class="main"></div>
-
-    <div class="instagramText"><h3>Shoot it (<em>Instagram</em>). Tag it (<em id="tagy"></em>). See it (<em>Here</em>).</h3></div>
+    <div class="instagramText" align="center"><h3>Shoot it (<em>Instagram</em>). Tag it (<em id="tagy"></em>). See it (<em>Here</em>).</h3></br></br></div>
     <div id="target" ></div>
     <div id="photos-wrap" align="center"><button class="ViewMore">View more</button></div>
 </div>

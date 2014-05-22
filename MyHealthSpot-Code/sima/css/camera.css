@@ -65,7 +65,7 @@
 }
 .camera_target {
 	bottom: 0;
-	height: 100%;
+	height: 100%; 
 	left: 0;
 	overflow: hidden;
 	position: absolute;
@@ -97,8 +97,6 @@
 }
 .camera_target_content .camera_link {
 	display: block;
-	height: 100%;
-	text-decoration: none;
 }
 .camera_loader {
     background: #fff url(../images/camera-loader.gif) no-repeat center;

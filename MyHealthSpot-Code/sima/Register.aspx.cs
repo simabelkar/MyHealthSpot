@@ -49,7 +49,7 @@ namespace MyHealthSpot
 
         protected void btnBack_Click(object sender, EventArgs e)
         {
-            Response.Redirect("home.html");
+            Response.Redirect("Home.aspx");
         }
     }
 }
