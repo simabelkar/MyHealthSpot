@@ -306,7 +306,7 @@ h2{
 /* start about */
 .main{
 	padding:2% 0 4%;
-	text-align:left;
+	text-align:right;
 	border-top: 1px ridge rgb(241, 241, 241);
 }
 .about {
@@ -376,7 +376,7 @@ h2{
 	width: 72.33333%;
 }
 .profile_information {
-	float: left;
+	float: right;
 	margin-right: 3%;
 	width: 24.3333%;
 }
@@ -549,7 +549,7 @@ h2{
 		width: 45.33333%;
 	}
 	.profile_information {
-		float: none;
+		float: right;
 		margin-right: 0%;
 		width: 99.3333%;
 	}

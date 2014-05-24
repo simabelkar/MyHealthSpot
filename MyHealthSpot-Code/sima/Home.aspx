@@ -49,11 +49,15 @@
                 <li><a href="UserPhotos.aspx"><span>אינסטגרם</span></a></li>
 			    <li><a href="recipes.html"><span>מתכונים</span></a></li>
 			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
-			    <li class="last"><a href="profile.html"><span>פרופיל</span></a></li>
+			    <li class="last"><a href="Profile.aspx"><span>פרופיל</span></a></li>
 			 </ul>
                        
              
              <div class="clear"></div>
+             <div align="center" class="cssmenu">
+                <h2>האתר שיאגד עבורך את כל ענייני הבריאות, הכושר והתזונה</h2>
+                <br />
+             </div>
 	</div>
     
     <div class="login" >
@@ -61,6 +65,8 @@
         <!-- SIMA: use linkbutton for links, and label for user details-->
      </div>
      </br>
+     <div class="gallery" style="display:none;">כאן יהיה מודל-דיאלוג של הרשמה או כניסה
+     </div>
     <!-- #camera_wrap_1 -->
    
             <div class="fluid_container">

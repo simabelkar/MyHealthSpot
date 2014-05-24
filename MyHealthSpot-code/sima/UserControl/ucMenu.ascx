@@ -8,7 +8,7 @@
 		<li><a href="articles.html"><span>Articles</span></a></li>
 		<li><a href="recipes.html"><span>Recipes</span></a></li>
 		<li class="has-sub"><a href="forum.html"><span>Forum</span></a></li>
-		<li class="last"><a href="profile.html"><span>Profile</span></a></li>
+		<li class="last"><a href="Profile.aspx"><span>Profile</span></a></li>
 		</ul>
         <div class="login">
         <a href="#">Login</a> | <a href="Register.aspx">Register</a>

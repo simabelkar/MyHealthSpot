@@ -122,7 +122,7 @@
                 <li class="active"><a href="UserPhotos.aspx"><span>אינסטגרם</span></a></li>
 			    <li><a href="recipes.html"><span>מתכונים</span></a></li>
 			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
-			    <li class="last"><a href="profile.html"><span>פרופיל</span></a></li>
+			    <li class="last"><a href="Profile.aspx"><span>פרופיל</span></a></li>
 			 </ul>
          <div class="clear"></div>
 	</div>
@@ -131,6 +131,15 @@
     <div class="instagramText" align="center"><h3>Shoot it (<em>Instagram</em>). Tag it (<em id="tagy"></em>). See it (<em>Here</em>).</h3></br></br></div>
     <div id="target" ></div>
     <div id="photos-wrap" align="center"><button class="ViewMore">View more</button></div>
+
+    <div class="clear"></div>
+	<div class="footer1">
+		<div class="copy">
+			<p class="w3-link">Design by&nbsp; <a href="#">MyHealthSpot team</a></p>
+		</div>
+		<div class="clear"></div>	
+	</div>
+
 </div>
 </div>
 </div>
