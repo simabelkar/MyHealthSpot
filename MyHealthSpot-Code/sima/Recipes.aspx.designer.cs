@@ -10,6 +10,6 @@
 namespace MyHealthSpot {
     
     
-    public partial class Matkonim {
+    public partial class ClsMatkonim {
     }
 }

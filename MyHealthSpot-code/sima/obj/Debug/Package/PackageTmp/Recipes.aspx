@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Recipes.aspx.cs" Inherits="MyHealthSpot.ClsMatkonim" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Recipes.aspx.cs" Inherits="MyHealthSpot.Matkonim" %>
 <html>
 <head>
 <title>My Health Spot | Recipes</title>
