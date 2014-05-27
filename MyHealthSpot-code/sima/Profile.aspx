@@ -73,12 +73,12 @@
                                             <tr >
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="TextBox1" runat="server" Enabled="false"></asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="TextBox1" runat="server" Enabled="false">שירן</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="TextBox2" runat="server" Enabled="false"></asp:TextBox></span>
+                                                    <span><asp:TextBox ID="TextBox2" runat="server" Enabled="false">מור יוסף</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -95,12 +95,12 @@
                                             <tr>
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="TextBox3" runat="server" Enabled="false"></asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="TextBox3" runat="server" Enabled="false">0000000000</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="TextBox4" runat="server" Enabled="false"></asp:TextBox></span>
+                                                    <span><asp:TextBox ID="TextBox4" runat="server" Enabled="false">sh@gmail.com</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -117,12 +117,12 @@
                                             <tr>
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="TextBox5" runat="server" Enabled="false"></asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="TextBox5" runat="server" Enabled="false">1.65</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="TextBox6" runat="server" Enabled="false"></asp:TextBox></span>
+                                                    <span><asp:TextBox ID="TextBox6" runat="server" Enabled="false">47</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -136,7 +136,7 @@
                                             <tr>
                                                 <td align="right">
                                                     <div><span>
-                                                        <asp:Label ID="Label2" runat="server" Text="bmi"></asp:Label>
+                                                        <asp:Label ID="Label2" runat="server" Text="17.26"></asp:Label>
                                                     </span></div>
                                                 </td>
                                                 <td>
@@ -160,7 +160,7 @@
                                                 <td align="center">
                                                     <div><span>        
                                                     <br />                                             
-                                                    <asp:Label runat="server" Text="שלום USER!"> </asp:Label>
+                                                    <asp:Label runat="server" Text="שלום ShiranMo!"> </asp:Label>
                                                     <br />
                                                     </span></div> 
                                                 </td>

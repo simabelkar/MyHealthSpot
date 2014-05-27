@@ -98,12 +98,8 @@
     <Content Include="images\ser_pic4.jpg" />
     <Content Include="images\slider\slider1.jpg" />
     <Content Include="images\slider\slider2.jpg" />
-    <Content Include="images\slider\slider3.jpg" />
-    <Content Include="images\slider\slider4.jpg" />
     <Content Include="images\thumbs\slider1.jpg" />
     <Content Include="images\thumbs\slider2.jpg" />
-    <Content Include="images\thumbs\slider3.jpg" />
-    <Content Include="images\thumbs\slider4.jpg" />
     <Content Include="images\weight.jpg" />
     <Content Include="js\camera.min.js" />
     <Content Include="js\jquery.easing.1.3.js" />
@@ -188,9 +184,6 @@
     <None Include="images\logo.psd" />
     <None Include="images\logo1.psd" />
     <None Include="images\plus_btn.psd" />
-    <None Include="images\slider\Thumbs.db" />
-    <None Include="images\Thumbs.db" />
-    <None Include="images\thumbs\Thumbs.db" />
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
