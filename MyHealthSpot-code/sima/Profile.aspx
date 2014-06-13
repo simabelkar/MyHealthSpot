@@ -14,9 +14,33 @@
 <script src="js/jquery.lightbox.js"></script>
 <script>
     // Initiate Lightbox
-    $(function () {
+    $(document).ready(function () {
         $('.gallery a').lightbox();
+
+        calcBMI();
+
     });
+
+    function calcBMI() {
+
+//        alert(Number($("#txtHeight").text)+1);
+//        if (isNaN($("#txtHeight").value)) //$("#txtHeight").toString() )
+//        {
+//            var a = parseInt($("#txtHeight").text.toString());
+//            alert(a);
+//           // alert(val($("#txtHeight").text.toString()));
+//        var height = parseInt($("#txtHeight").value);
+//        alert(height);
+////        if $("#txtHeight").toString().indexOf(".",0) >= 0
+////            height= $("#txtHeight").toString().
+//            $("#lblBMI") = $("#txtWeight").val / (height * height);
+        //        }
+
+        if (Number($("#lblBMI").text) < 18.5) {
+            alert("AAAAAAAAAAAA");
+            $("#lblBMI").text = $("#lblBMI").text & " - תת משקל";
+        }
+    }
 </script>
 
 </head>
@@ -117,12 +141,12 @@
                                             <tr>
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="TextBox5" runat="server" Enabled="false">1.65</asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="txtHeight" runat="server" Enabled="false" Text="165"></asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="TextBox6" runat="server" Enabled="false">47</asp:TextBox></span>
+                                                    <span><asp:TextBox ID="txtWeight" runat="server" Enabled="false">47</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -136,7 +160,7 @@
                                             <tr>
                                                 <td align="right">
                                                     <div><span>
-                                                        <asp:Label ID="Label2" runat="server" Text="17.26"></asp:Label>
+                                                        <asp:Label ID="lblBMI" runat="server" Text="17.25 - תת משקל"></asp:Label>
                                                     </span></div>
                                                 </td>
                                                 <td>
@@ -157,16 +181,23 @@
                                     <td align="center" cellpadding="2"  > 
                                         <table width="90%" style="background-color:#ffffff;">
                                             <tr>
-                                                <td align="center">
+                                                <td align="right">
                                                     <div><span>        
                                                     <br />                                             
-                                                    <asp:Label runat="server" Text="שלום ShiranMo!"> </asp:Label>
-                                                    <br />
+                                                    <asp:Label runat="server" >&nbsp;&nbsp; שלום ShiranMo ! </asp:Label>
+                                                    
                                                     </span></div> 
+                                                </td>
+                                                <td align="left">
+                                                <br />  
+                                                    <span>
+                                                        <asp:LinkButton ID="LinkButton2" runat="server" > ערוך פרופיל &nbsp;&nbsp;  </asp:LinkButton>
+                                                </span>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td align="center">
+                                                <td align="center" colspan="2">
+                                                <br />
                                                     <div><span>את/ה:</span></div> 
                                                         <asp:RadioButton ID="RadioButton1" GroupName="userType" runat="server" 
                                                         Text="משתמש רגיל" Checked="True" Enabled="false" Width="42%"  />
@@ -176,7 +207,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td dir="rtl" align="center">
+                                                <td dir="rtl" align="center" colspan="2">
                                                     <div><span> 
                                                      <br />   
                                                         יש לך                               
@@ -185,7 +216,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td dir="rtl" align="center">
+                                                <td dir="rtl" align="center" colspan="2">
                                                     <div><span> 
                                                          יש לך                               
                                                         <asp:LinkButton ID="LinkButton1" runat="server" Text=" # הודעות"> </asp:LinkButton>
@@ -193,7 +224,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td dir="rtl" align="center">
+                                                <td dir="rtl" align="center" colspan="2">
                                                     <div><span> 
                                                          יש לך                               
                                                         <asp:LinkButton ID="LinkButton3" runat="server" Text=" # תגיות שמורות"> </asp:LinkButton>
@@ -201,13 +232,22 @@
                                                 </td>
                                             </tr>
                                             <tr>
+                                                <td dir="rtl" align="center" colspan="2">
+                                                    <div><span> 
+                                                      יש לך                               
+                                                        <asp:LinkButton ID="LinkButton4" runat="server" Text=" # המלצות"> </asp:LinkButton>
+                                                    </span></div>
+                                                    <br />  <br />  
+                                                </td>
+                                            </tr>
+                                            <%--<tr>
                                                 <td align="center">
                                                     <div><span> 
-                                                    <br /> <br />
+                                                    <br />
                                                         <asp:LinkButton ID="LinkButton2" runat="server" Text="ערוך פרופיל"> </asp:LinkButton>
                                                     </span></div>
                                                 </td>
-                                            </tr>
+                                            </tr>--%>
                                             
                                         </table>
                                         

@@ -76,6 +76,7 @@
     <Content Include="images\slider\motivation.jpg" />
     <Content Include="images\slider\Pilates.jpg" />
     <Content Include="images\slider\pilatesClass.jpg" />
+    <Content Include="MdlDlg.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="details.html" />
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MdlDlg.aspx.cs">
+      <DependentUpon>MdlDlg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MdlDlg.aspx.designer.cs">
+      <DependentUpon>MdlDlg.aspx</DependentUpon>
     </Compile>
     <Compile Include="Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>

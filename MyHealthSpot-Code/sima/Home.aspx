@@ -9,6 +9,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+
 <!--slider-->
 <link href="css/camera.css" rel="stylesheet" type="text/css" media="all" />
     <script type='text/javascript' src='js/jquery.min.js'></script>
@@ -16,8 +18,10 @@
     <script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
     <script type='text/javascript' src='js/camera.min.js'></script> 
     
-    <script>
-        jQuery(function () {
+    
+
+    <script type="text/javascript">
+        $(document).ready(function () {
 
             jQuery('#camera_wrap_1').camera({
                 thumbnails: true
@@ -29,7 +33,11 @@
                 pagination: false,
                 thumbnails: true
             });
+
+
+            
         });
+
 	</script>
 
 </head>
@@ -37,6 +45,7 @@
 <div class="wrapper">
 <div class="wrap">
 <div class="wrap_inner">
+
     
     <div class="cssmenu" dir="rtl">
             <div class="logo">
@@ -61,15 +70,14 @@
 	</div>
     
     <div class="login" >
-        <a href="#">משתמש קיים</a> | <a href="Register.aspx">משתמש חדש</a>
+        <a href="#">משתמש קיים</a> | <a href="Register.aspx" >משתמש חדש</a>
         <!-- SIMA: use linkbutton for links, and label for user details-->
      </div>
-     </br>
-     <div class="gallery" style="display:none;">כאן יהיה מודל-דיאלוג של הרשמה או כניסה
-     </div>
-    <!-- #camera_wrap_1 -->
+     <br />
+     
+     <!-- #camera_wrap_1 -->
    
-            <div class="fluid_container">
+     <div class="fluid_container">
         <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
             <div data-thumb="images/thumbs/Pilates.jpg" data-src="images/slider/Pilates.jpg">
             </div>
