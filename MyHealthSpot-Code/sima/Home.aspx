@@ -64,7 +64,7 @@
              
              <div class="clear"></div>
              <div align="center" class="cssmenu">
-                <h2>האתר שיאגד עבורך את כל ענייני הבריאות, הכושר והתזונה</h2>
+                <h1>האתר שיאגד עבורך את כל ענייני הבריאות, הכושר והתזונה</h1>
                 <br />
              </div>
 	</div>
@@ -167,62 +167,6 @@
 	</div>
     <!--end grid-->
 
-	<!--content_btm-->
-    <!--
-	<div class="content_btm">
-		<div class="col_1_of_3 span_1_of_3">
-			<h2>Lorem Ipsum simply</h2>
-			<div class="text1-nav">
-				<ul>
-					<li><a href="">The standard chunk of Lorem Ipsum used</a></li>
-					<li><a href="">Duis a augue ac libero euismod viverra sitth</a></li>
-					<li><a href="">The standard chunk of Lorem Ipsum used </a></li>
-					<li><a href="">Duis a augue ac libero euismod viverra sitth</a></li>
-					<li><a href="">The standard chunk of Lorem Ipsum used </a></li>
-					<li><a href="">Duis a augue ac libero euismod viverra sitth</a></li>
-
-				</ul>
-			</div>
-		</div>
-		<div class="col_1_of_3 span_1_of_3">
-			<h2>Lorem Ipsum simply</h2>
-			<h4>The standard chunk of Lorem Ipsum dolor sit amet,</h4>
-			<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
-			<div class="button top"><a href="details.html">Read More</a></div>
-		</div>
-		<div class="col_1_of_3 span_1_of_3">
-			<h2>Lorem Ipsum simply</h2>
-			<h4>The standard chunk of Lorem Ipsum dolor sit amet,</h4>
-			<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage</p>
-			<div class="button top"><a href="details.html">Read More</a></div>
-		</div>
-		<div class="clear"></div>
-	</div>
-    -->
-    <!--end content_btm-->
-	<!-- black squares content-->
-    <!--
-    <div class="grids_btm">
-		<div class="grids">
-			<div class="images_1_of_1">
-				<p>15</p>
-			</div>
-			<div class="grid_1_of_1">
-				  	<h3>Lorem Ipsum is simply text </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua.</p>	   
- 			</div>
-		</div>
-			<div class="grids">
-			<div class="images_1_of_1">
-				<p>$</p>
-			</div>
-				<div class="grid_1_of_1">
-				  	<h3>Lorem Ipsum is simply text </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore dolore magna aliqua.</p>   
- 				</div>
-			</div>
-	</div>
-    -->
     <!-- end black squares content-->
 	<div class="clear"></div>
 	<div class="footer1">

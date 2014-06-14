@@ -69,7 +69,7 @@
 		<div class="section group">		
 				<div class="col span_2_of_4">                    
       			    <div class="signup-form">
-				     	<h2>פרופיל משתמש </h2>
+				     	<h1>פרופיל משתמש </h1>
                         <form id="frmProfile" runat="server" dir="rtl" align="center">
 
                             <table id="tblMain" width="100%">
@@ -272,7 +272,8 @@
 					</div>
 					  <p dir="rtl">בלחיצה על קישור זה באפשרותך ליצור תפריט מותאם אישית לצרכיך מתוך מאגר קיים או באמצעות דיאטן (כרוך בתשלום)</p>
 					<div class="plus_btn">
-						<span></span>
+						<!--<a href="menu.html"><span></span></a>-->
+                        <a href="createMenu.aspx"><span></span></a>
 					</div>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 bg2">

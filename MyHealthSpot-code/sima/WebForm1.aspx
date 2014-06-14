@@ -10,9 +10,9 @@
     <tr align="center">
         <td>
             <div class="grids">
-                <h3 >
+                <h1 >
                  רישום משתמש חדש
-                </h3>
+                </h1>
             </div>                  
             <br />
         </td>
