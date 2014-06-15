@@ -8,76 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<style type="text/css">
-.b_ttl_bg {
-background-image: url("http://www.heli-group.co.il/images/box/ttl_bg.png");
-height: 34px;
-}
-.b_ttl_rgt {
-background-image: url("http://www.heli-group.co.il/images/box/ttl_rgt.png");
-height: 34px;
-background-position: right;
-background-repeat: no-repeat;
-}
-.b_ttl_lft {
-background-image: url("http://www.heli-group.co.il/images/box/ttl_lft.png");
-height: 34px;
-background-position: left;
-background-repeat: no-repeat;
-}
-.b_ttl_txt {
-padding: 9px 20px 0px 0px;
-font-size: 15px;
-color: #555555;
-font-weight: bold;
-}
-.smn 
-{
-direction:rtl;
-height: 30px;
-border-bottom: 1px #E6E6E6 solid;
-border-left: 1px #E6E6E6 solid;
-border-right: 1px #E6E6E6 solid;
-background-image: url("http://www.heli-group.co.il/images/side/m_bg.png");
-background-position: center bottom;
-padding-top: 15px;
-}
-.smn_bull {
-width: 24px;
-background-image: url("http://www.heli-group.co.il/images/side/bull.png");
-background-position: center center;
-background-repeat: no-repeat;
-}
-.smn_txt {
-color: #666666;
-font-size: 14px;
-}
-.smn_txt_s {
-color: #666666;
-font-size: 14px;
-font-weight: bold;
-}
-.mName {
-display: block;
-font-weight: bold;
-font-size: 14pt;
-color: #000;
-padding-bottom: 18px;
-text-align: center;
-text-decoration: underline;
-}
-.slot {
-display: block;
-font-size: 10pt;
-font-weight: bold;
-}
-.select
-{
-    width:80%;
-    direction:rtl;
-}
-</style>
+<link href="css/recipes.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
 <div class="wrapper">
 <div class="wrap">
@@ -99,7 +32,7 @@ font-weight: bold;
 
     <!--start content-->
 	<div class="main" >
-        <div id="right" style="width:20%; float:right;">
+        <div id="right" style="width:20%; float:right; padding:20px">
             <div>
                 <div class="b_ttl_bg"><div class="b_ttl_rgt"><div class="b_ttl_lft"><div class="b_ttl_txt">תפריטי דיאטה</div></div></div></div>
                 <table cellpadding="0" cellspacing="0" width="100%" height="100%" border="0">
@@ -149,16 +82,202 @@ font-weight: bold;
             </tbody></table>
             </div>
         </div>
-        <div id="left" style="width:75%; float:left; border:2px dotted darkgreen; padding:20px;">
+        <div id="left" style="width:60%; float:right; border:2px darkgreen; background-color:white; margin-top:20px;">
         <form id="menu" runat="server">
-            <div class="1200">
+            <!--1200-->
+            <div class="1200" style="background-color:blue; padding:20px; background-color:#7cc810;">
                 <h2 class="mName">תפריט 1200 קלוריות</h2>
-                <div class="mealTitle" style="font-size: 12pt;font-weight: bold;padding-bottom: 10px;">(ארוחת בוקר: מנת פחמימה + מנת חלבון (גבינה</div>
+                <div class="mealTitle">(ארוחת בוקר: מנת פחמימה + מנת חלבון (גבינה</div>
                 <div class="slot">:בחר מנת פחמימה</div>
                 <asp:DropDownList ID="DropDownList1" runat="server" CssClass="select">
                 </asp:DropDownList>
                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
                 <asp:DropDownList ID="DropDownList2" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ביניים: מנת פרי</div>
+                 <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList3" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת צהריים: מנת חלבון (בשר) + מנת פחמימה + מנת שומן</div>
+                 <div class="slot">:(בחר מנת חלבון (בשר</div>
+                <asp:DropDownList ID="DropDownList4" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList5" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת שומן</div>
+                <asp:DropDownList ID="DropDownList6" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ביניים: מנת פרי + מנת פחמימה</div>
+                  <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList7" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList8" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ערב: מנת פחמימה + מנת חלבון (גבינה) + חצי מנת חלבון (גבינה) + מנת שומן</div>
+                  <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList9" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList10" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:(בחר חצי מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList11" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:בחר מנת שומן</div>
+                <asp:DropDownList ID="DropDownList12" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת לילה: מנת חלבון (גבינה) + מנת פרי</div>
+                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList13" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList14" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+            </div>
+
+            <!--1500-->
+            <div class="1500" style="background-color:blue; padding:20px; background-color:#eeee66;">
+                <h2 class="mName">תפריט 1500 קלוריות</h2>
+                <div class="mealTitle">(ארוחת בוקר: מנת פחמימה + מנת חלבון (גבינה</div>
+                <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList15" runat="server" CssClass="select">
+                </asp:DropDownList>
+                <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList16" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ביניים: מנת פרי</div>
+                 <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList17" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת צהריים: מנת חלבון (בשר) + מנת פחמימה + מנת שומן</div>
+                 <div class="slot">:(בחר מנת חלבון (בשר</div>
+                <asp:DropDownList ID="DropDownList18" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList19" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת שומן</div>
+                <asp:DropDownList ID="DropDownList20" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ביניים: מנת פרי + מנת פחמימה</div>
+                  <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList21" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList22" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ערב: מנת פחמימה + מנת חלבון (גבינה) + חצי מנת חלבון (גבינה) + מנת שומן</div>
+                  <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList23" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList24" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:(בחר חצי מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList25" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:בחר מנת שומן</div>
+                <asp:DropDownList ID="DropDownList26" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת לילה: מנת חלבון (גבינה) + מנת פרי</div>
+                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList27" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList28" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+            </div>
+
+            <!--1800-->
+            <div class="1800" style="background-color:blue; padding:20px; background-color:#ff9999;">
+                <h2 class="mName">תפריט 1800 קלוריות</h2>
+                <div class="mealTitle">(ארוחת בוקר: מנת פחמימה + מנת חלבון (גבינה</div>
+                <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList29" runat="server" CssClass="select">
+                </asp:DropDownList>
+                <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList30" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ביניים: מנת פרי</div>
+                 <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList31" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת צהריים: מנת חלבון (בשר) + מנת פחמימה + מנת שומן</div>
+                 <div class="slot">:(בחר מנת חלבון (בשר</div>
+                <asp:DropDownList ID="DropDownList32" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList33" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת שומן</div>
+                <asp:DropDownList ID="DropDownList34" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ביניים: מנת פרי + מנת פחמימה</div>
+                  <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList35" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList36" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת ערב: מנת פחמימה + מנת חלבון (גבינה) + חצי מנת חלבון (גבינה) + מנת שומן</div>
+                  <div class="slot">:בחר מנת פחמימה</div>
+                <asp:DropDownList ID="DropDownList37" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList38" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:(בחר חצי מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList39" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:בחר מנת שומן</div>
+                <asp:DropDownList ID="DropDownList40" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="mealTitle">ארוחת לילה: מנת חלבון (גבינה) + מנת פרי</div>
+                 <div class="slot">:(בחר מנת חלבון (גבינה</div>
+                <asp:DropDownList ID="DropDownList41" runat="server" CssClass="select">
+                <asp:ListItem></asp:ListItem>
+                </asp:DropDownList>
+                <div class="slot">:בחר מנת פרי</div>
+                <asp:DropDownList ID="DropDownList42" runat="server" CssClass="select">
                 <asp:ListItem></asp:ListItem>
                 </asp:DropDownList>
             </div>
