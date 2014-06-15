@@ -56,10 +56,12 @@
     <Content Include="404.html" />
     <Content Include="App_Data\Northwind.mdb" />
     <Content Include="articles.html" />
+    <Content Include="menu.html" />
     <Content Include="css\camera.css" />
-    <Content Include="css\food1.css" />
+    <Content Include="css\recipesmain.css" />
     <Content Include="css\jquery.lightbox.css" />
     <Content Include="css\matkonim.css" />
+    <Content Include="css\recipecategory.css" />
     <Content Include="css\style.css" />
     <Content Include="Home.aspx" />
     <Content Include="images\BMIchart.gif" />
@@ -80,6 +82,8 @@
     <Content Include="images\slider\pilatesClass.jpg" />
     <Content Include="MdlDlg.aspx" />
     <Content Include="Profile.aspx" />
+    <Content Include="Recipes\Categories\ChickenRecipes.html" />
+    <Content Include="Recipes\ChickenRoll.htm" />
     <Content Include="Register.aspx" />
     <Content Include="details.html" />
     <Content Include="forum.html" />
@@ -126,6 +130,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="WebForm1.aspx" />
+    <Content Include="createMenu.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home.aspx.cs">
@@ -184,6 +189,13 @@
     </Compile>
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createMenu.aspx.cs">
+      <DependentUpon>createMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createMenu.aspx.designer.cs">
+      <DependentUpon>createMenu.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -17,14 +17,12 @@
 	    </div>
      </div>
      
-
-    
 	<!--start content-->
 	<div class="main">
 		<div class="section group">							
 		    <div class="col span_2_of_4" align="center">
 			    <div class="signup-form">
-				  	<h2>רישום משתמש חדש</h2>
+				  	<h1>רישום משתמש חדש</h1>
 					       <form id="f1" runat="server">
                            <table border="0" width="600px" style="margin-left:90px;">
                            <tr>
