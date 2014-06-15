@@ -3,12 +3,12 @@ C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Code\sima\bi
 C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Code\sima\bin\MyHealthSpot.pdb
 C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.dll
 C:\Users\sbelkar\Documents\Visual Studio 2010\Projects\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.pdb
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.csprojResolveAssemblyReference.cache
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.dll
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.pdb
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\bin\MyHealthSpot.dll
-C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\bin\MyHealthSpot.pdb
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\bin\MyHealthSpot.dll
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\bin\MyHealthSpot.pdb
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Debug\MyHealthSpot.dll
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Debug\MyHealthSpot.pdb
+C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\bin\MyHealthSpot.dll
+C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\bin\MyHealthSpot.pdb
+C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.csprojResolveAssemblyReference.cache
+C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.dll
+C:\Users\sbelkar\Documents\GitHub\MyHealthSpot\MyHealthSpot-Code\sima\obj\Debug\MyHealthSpot.pdb
