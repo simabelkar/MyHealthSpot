@@ -1,0 +1,50 @@
+.recipe {
+clear: both;
+background: transparent url("http://www.simplyrecipes.com/wp-content/themes/simply/i/u-black.gif") repeat-x left top;
+padding: 12px 0 0;
+margin-top: 18px;
+display: block;
+min-height: 200px;
+}
+.featured-image {
+float: right;
+margin: 0 10px 12px 0;
+border: 0;
+font-family: inherit;
+font-size: 100%;
+font-style: inherit;
+font-weight: inherit;
+margin: 0;
+outline: 0;
+padding: 0;
+vertical-align: baseline;
+}
+.featured-image a {
+color: #600;
+-moz-transition: color .4s linear;
+-ms-transition: color .4s linear;
+-o-transition: color .4s linear;
+-webkit-transition: color .4s linear;
+transition: color .4s linear;
+}
+.featured-image img {
+border: solid 1px #efe7da;
+padding: 2px;
+}
+.recipe .entry-title {
+font-size: 12px;
+font-family: Verdana;
+font-weight: bold;
+background: none;
+margin: 0;
+padding: 0 0 6px;
+}
+.recipe .entry-title a {
+color:black;
+text-decoration: underline;
+}
+.recipe .summary {
+font-size: 14px;
+line-height: 1.2;
+}
+

@@ -27,7 +27,7 @@ namespace MyHealthSpot
 
         protected void bb1_Click(object sender, EventArgs e)
         {
-            string strDSN = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Server.MapPath("./App_Data/Northwind.mdb");
+            string strDSN = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\sbelkar\\Documents\\GitHub\\MyHealthSpot\\MyHealthSpot-Code\\sima\\App_Data\\Northwind.mdb";
             string strSQL = "insert into Users values ('" + userName.Value + "','" + Password.Value.ToString() + "','" + userEmail.Value.ToString() + "','" + firstName.Value.ToString() + "','" + lastName.Value.ToString() + "','" + userPhone.Value.ToString() + "')";
             // create Objects of ADOConnection and ADOCommand
             OleDbConnection myConn = new OleDbConnection(strDSN);

@@ -94,6 +94,8 @@
          </div><!-- #camera_wrap_1 -->
          <div class="clear"></div>
 	</div>
+
+    
 	<!-- end #camera_wrap_1 -->
     
     <!--add grid-->
@@ -115,7 +117,7 @@
 		    </div>
 			    <p dir="rtl">בלחיצה על קישור זה ניתן לצפות במתכוני בריאות שיעזרו לכם לשמור על תזונה נכונה</p>
 	 	    <div class="plus_btn">
-			    <a href="recipes.html"><span></span></a>
+			    <span></span>
 		    </div>
 	    </div>
 	    <div class="grid_1_of_3 images_1_of_3 bg1">
@@ -138,7 +140,7 @@
 		    </div>
 		    <p>בלחיצה על קישור זה ניתן לצפות בפרופיל האישי המאפשר שינוי הגדרות מותאמות וביצוע פעולות אישיות</p>
 		    <div class="plus_btn">
-			    <a href="Profile.aspx"><span></span></a>
+			    <span></span>
 		    </div>
 	    </div>
         <div class="grid_1_of_3 images_1_of_3 bg2">
@@ -148,7 +150,7 @@
 			</div>
 			<p>בלחיצה על קישור זה ניתן לשאול שאלות בפורום על מנת להתייעץ עם משתמשים אחרים</p>
 	 		<div class="plus_btn">
-				<a href="forum.html"><span></span></a>
+				<span></span>
 			</div>
 		</div>
         <div class="grid_1_of_3 images_1_of_3 bg1">
