@@ -1,0 +1,4 @@
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\bin\MyHealthSpot.dll
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\bin\MyHealthSpot.pdb
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Release\MyHealthSpot.dll
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Release\MyHealthSpot.pdb

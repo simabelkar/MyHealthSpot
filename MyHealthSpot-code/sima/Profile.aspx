@@ -8,38 +8,94 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
 <!--start lightbox -->
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<%--<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery.lightbox.js"></script>
+<script src="js/jquery.lightbox.js"></script>--%>
 <script>
     // Initiate Lightbox
     $(document).ready(function () {
         $('.gallery a').lightbox();
 
+        $("#txtName,#txtLName,#txtPhone,#txtMail,#txtHeight,#txtWeight").css('background-color', "#EEEEEE"); //disable
+
         calcBMI();
+
+        $("#linkEdit").on('click', function () {
+            enableEdit();
+        });
+
+        $("#linkSaveEdit").on('click', function () {
+            saveEdit();
+        });
 
     });
 
+    function enableEdit() {
+        //alert("Edit");
+        // $(textId).prop('disabled',true);  $(textId).prop('disabled',false');
+
+        $("#linkEdit").css("display", "none");
+        $("#linkSaveEdit").css("display", "block");
+        $("#txtName,#txtLName,#txtPhone,#txtMail,#txtHeight,#txtWeight,#rbRegular,#rbPro").prop('disabled', false);
+        $("#txtName,#txtLName,#txtPhone,#txtMail,#txtHeight,#txtWeight").css('background-color', "#FFFFFF");
+        event.preventDefault();
+      
+        return false;
+    }
+
+    function saveEdit() {
+        //alert("Edit");
+        // $(textId).prop('disabled',true);  $(textId).prop('disabled',false');
+
+        $("#linkEdit").css("display", "block");
+        $("#linkSaveEdit").css("display", "none");
+        $("#txtName,#txtLName,#txtPhone,#txtMail,#txtHeight,#txtWeight,#rbRegular,#rbPro").prop('disabled', true);
+        $("#txtName,#txtLName,#txtPhone,#txtMail,#txtHeight,#txtWeight").css('background-color', "#EEEEEE"); //disable
+        event.preventDefault();
+        calcBMI();
+        //SAVE TO D.B!!
+    }
     function calcBMI() {
 
-//        alert(Number($("#txtHeight").text)+1);
-//        if (isNaN($("#txtHeight").value)) //$("#txtHeight").toString() )
-//        {
-//            var a = parseInt($("#txtHeight").text.toString());
-//            alert(a);
-//           // alert(val($("#txtHeight").text.toString()));
-//        var height = parseInt($("#txtHeight").value);
-//        alert(height);
-////        if $("#txtHeight").toString().indexOf(".",0) >= 0
-////            height= $("#txtHeight").toString().
-//            $("#lblBMI") = $("#txtWeight").val / (height * height);
-        //        }
+       // alert(Number($("#txtHeight").val()));
 
-        if (Number($("#lblBMI").text) < 18.5) {
-            alert("AAAAAAAAAAAA");
-            $("#lblBMI").text = $("#lblBMI").text & " - תת משקל";
+        var height = $("#txtHeight").val();
+        var weight = $("#txtWeight").val();
+        var bmi = "";
+        var range = "";
+
+        if (Number(height) && Number(weight)) {
+            bmi = (weight / Math.pow(height, 2)).toFixed(2); //(height * height);
+            //bmi = weight / (1.65 * 1.65);
+            // alert(bmi);
+            range = checkBMIrange(bmi);
+            // alert(range);
+            $("#lblBMI").html("ה BMI שלך הוא: " + bmi + " - " + range);
+            $("#imgBMI").attr('src', "http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=" + bmi + "&amp;width=550");
         }
+        else {
+            $("#lblBMI").html("0");
+            $("#imgBMI").attr('src', "http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=0&amp;width=550");        
+        }
+
+
+    }
+
+    function checkBMIrange(bmi) {
+        if (bmi < 18.5)
+            return "תת משקל";
+        if (bmi >= 18.5 && bmi < 25)
+            return "משקל בריא";
+        if (bmi >= 25 && bmi < 30)
+            return "עודף משקל";
+        if (bmi >= 30 && bmi < 35)
+            return "השמנה";
+        if (bmi >= 35 && bmi < 45)
+            return "השמנה יתר";
+        if (bmi >= 45)
+            return "השמנה יתר חמורה";
     }
 </script>
 
@@ -97,12 +153,12 @@
                                             <tr >
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="TextBox1" runat="server" Enabled="false">שירן</asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="txtName" runat="server" Enabled="false">שירן</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="TextBox2" runat="server" Enabled="false">מור יוסף</asp:TextBox></span>
+                                                    <span><asp:TextBox ID="txtLName" runat="server" Enabled="false">מור יוסף</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
@@ -119,54 +175,54 @@
                                             <tr>
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="TextBox3" runat="server" Enabled="false">0000000000</asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="txtPhone" runat="server" Enabled="false">0000000000</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="TextBox4" runat="server" Enabled="false">sh@gmail.com</asp:TextBox></span>
+                                                    <span><asp:TextBox ID="txtMail" runat="server" Enabled="false">sh@gmail.com</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
 
                                              <tr>
                                                 <td>                                        
-						    	                    <div><span>גובה:</span></div>                                        
+						    	                    <div><span>גובה (במטרים):</span></div>                                        
                                                 </td>
                                                 <td>                                        
-						    	                    <div><span>משקל:</span></div>                                        
+						    	                    <div><span>משקל (בק"ג):</span></div>                                        
                                                 </td>
                                             </tr>
 
                                             <tr>
                                                 <td>
                                                     <div>
-						    	                    <span><asp:TextBox ID="txtHeight" runat="server" Enabled="false" Text="165"></asp:TextBox></span>
+						    	                    <span><asp:TextBox ID="txtHeight" runat="server" Enabled="false" Text="1.63"></asp:TextBox></span>
                                                     </div>
                                                 </td>
                                                 <td>
                                                     <div>
-                                                    <span><asp:TextBox ID="txtWeight" runat="server" Enabled="false">47</asp:TextBox></span>
+                                                    <span><asp:TextBox ID="txtWeight" runat="server" Enabled="false">74</asp:TextBox></span>
                                                     </div>
                                                 </td>
                                             </tr>
 
                                              <tr>
                                                 <td colspan="2">                                        
-						    	                    <div><span>BMI:</span></div>                                        
+						    	                    <div><span><asp:Label ID="lblBMI" runat="server" Text="BMI:"></asp:Label></span></div>                                        
                                                 </td>                                                                                    
                                             </tr>
 
-                                            <tr>
+                                            <tr style="display:none">
                                                 <td align="right">
                                                     <div><span>
-                                                        <asp:Label ID="lblBMI" runat="server" Text="17.25 - תת משקל"></asp:Label>
+                                                        <asp:Label ID="lblBMI2" runat="server" Text="----"></asp:Label>
                                                     </span></div>
                                                 </td>
                                                 <td>
                                                     <div class="gallery bg1" ><span>
                                                         איפה אני בגרף?
-						                                <a href="images/BMIchart.gif">
+						                                <a href="images/BMIchart1.gif">
                                                             <img src="images/graph.jpg" title="איפה אני בגרף?" width="10%" style="vertical-align:middle;">
                                                         </a>                                                        
 					                                 </span></div>
@@ -174,6 +230,7 @@
                                                 
                                                
                                             </tr>
+                                            
                                            
                                         </table> 
                                     </td>
@@ -184,24 +241,25 @@
                                                 <td align="right">
                                                     <div><span>        
                                                     <br />                                             
-                                                    <asp:Label runat="server" >&nbsp;&nbsp; שלום ShiranMo ! </asp:Label>
+                                                    <asp:Label runat="server" ID="lblUserName">&nbsp;&nbsp; שלום ShiranMo ! </asp:Label>
                                                     
                                                     </span></div> 
                                                 </td>
                                                 <td align="left">
                                                 <br />  
                                                     <span>
-                                                        <asp:LinkButton ID="LinkButton2" runat="server" > ערוך פרופיל &nbsp;&nbsp;  </asp:LinkButton>
+                                                        <asp:LinkButton ID="linkEdit" runat="server" style="display:block" > ערוך פרופיל &nbsp;&nbsp;  </asp:LinkButton>
+                                                         <asp:LinkButton ID="linkSaveEdit" runat="server" style="display:none" > שמור פרופיל לאחר עריכה &nbsp;&nbsp;  </asp:LinkButton>
                                                 </span>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr  style="display:none">
                                                 <td align="center" colspan="2">
                                                 <br />
                                                     <div><span>את/ה:</span></div> 
-                                                        <asp:RadioButton ID="RadioButton1" GroupName="userType" runat="server" 
+                                                        <asp:RadioButton ID="rbRegular" GroupName="userType" runat="server" 
                                                         Text="משתמש רגיל" Checked="True" Enabled="false" Width="42%"  />
-                                                        <asp:RadioButton ID="RadioButton4" GroupName="userType" runat="server" 
+                                                        <asp:RadioButton ID="rbPro" GroupName="userType" runat="server" 
                                                         Text="משתמש PRO" Checked="false" Enabled="false" Width="42%" />                                                                                                                
                                                    
                                                 </td>
@@ -209,13 +267,13 @@
                                             <tr>
                                                 <td dir="rtl" align="center" colspan="2">
                                                     <div><span> 
-                                                     <br />   
+                                                     <br />  <br />   <br />  
                                                         יש לך                               
                                                         <asp:LinkButton runat="server" Text=" # משימות"> </asp:LinkButton>
                                                     </span></div>
                                                 </td>
                                             </tr>
-                                            <tr>
+                                            <tr style="display:none">
                                                 <td dir="rtl" align="center" colspan="2">
                                                     <div><span> 
                                                          יש לך                               
@@ -237,7 +295,7 @@
                                                       יש לך                               
                                                         <asp:LinkButton ID="LinkButton4" runat="server" Text=" # המלצות"> </asp:LinkButton>
                                                     </span></div>
-                                                    <br />  <br />  
+                                                    <br />  <br />  <br />   <br />  
                                                 </td>
                                             </tr>
                                             <%--<tr>
@@ -251,6 +309,15 @@
                                             
                                         </table>
                                         
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td  align="right" id="bmi_result_graph">
+                                    <br /> <br />
+                                    <span>
+                                        <img  id="imgBMI" src="http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=0&amp;width=550">
+                                    </span>
                                     </td>
                                 </tr>                           
                             
@@ -268,12 +335,11 @@
 				<div class="grid_1_of_3 images_1_of_3 bg1">
 					 <h3>צור תפריט אישי</h3>
 					<div class="gallery">
-						<a href="images/pic7.jpg"><img src="images/pic7.jpg" title="image-name" height="200px" width=100% /></a>
+						<a href="createMenu.aspx"><img alt="create Menu" src="images/pic7.jpg" title="image-name" height="200px" width=100% /> </a>
 					</div>
-					  <p dir="rtl">בלחיצה על קישור זה באפשרותך ליצור תפריט מותאם אישית לצרכיך מתוך מאגר קיים או באמצעות דיאטן (כרוך בתשלום)</p>
+					<p dir="rtl">בלחיצה על קישור זה באפשרותך ליצור תפריט מותאם אישית לצרכיך מתוך מאגר קיים</p>
 					<div class="plus_btn">
-						<!--<a href="menu.html"><span></span></a>-->
-                        <a href="createMenu.aspx"><span></span></a>
+						<a href="createMenu.aspx"><span></span></a>
 					</div>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 bg2">

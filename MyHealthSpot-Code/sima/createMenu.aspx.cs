@@ -16,7 +16,7 @@ namespace MyHealthSpot
         protected void Page_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            string strDSN = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\sbelkar\\Documents\\GitHub\\MyHealthSpot\\MyHealthSpot-Code\\sima\\App_Data\\Northwind.mdb";
+            string strDSN = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source="+Server.MapPath("./App_Data/Northwind.mdb");
             string strSQL = "SELECT name FROM pachmima WHERE type=5";
             // create Objects of ADOConnection and ADOCommand
             OleDbConnection myConn = new OleDbConnection(strDSN);
