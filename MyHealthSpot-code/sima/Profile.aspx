@@ -10,9 +10,9 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 
 <!--start lightbox -->
-<%--<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery.lightbox.js"></script>--%>
+<script src="js/jquery.lightbox.js"></script>
 <script>
     // Initiate Lightbox
     $(document).ready(function () {
@@ -77,7 +77,7 @@
         }
         else {
             $("#lblBMI").html("0");
-            $("#imgBMI").attr('src', "http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=0&amp;width=550");        
+            $("#imgBMI").attr('src', "http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=10&amp;width=550");        
         }
 
 
@@ -95,7 +95,7 @@
         if (bmi >= 35 && bmi < 45)
             return "השמנה יתר";
         if (bmi >= 45)
-            return "השמנה יתר חמורה";
+            return "השמנת יתר חמורה";
     }
 </script>
 
@@ -316,7 +316,7 @@
                                     <td  align="right" id="bmi_result_graph">
                                     <br /> <br />
                                     <span>
-                                        <img  id="imgBMI" src="http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=0&amp;width=550">
+                                        <img  id="imgBMI" src="http://www.goleango.com/calculators/simple_calculators/draw_bmi_graph.php?gender=male&amp;bmi=10&amp;width=550">
                                     </span>
                                     </td>
                                 </tr>                           
@@ -335,7 +335,7 @@
 				<div class="grid_1_of_3 images_1_of_3 bg1">
 					 <h3>צור תפריט אישי</h3>
 					<div class="gallery">
-						<a href="createMenu.aspx"><img alt="create Menu" src="images/pic7.jpg" title="image-name" height="200px" width=100% /> </a>
+						<a href="images/pic7.jpg"><img alt="create Menu" src="images/pic7.jpg" title="image-name" height="200px" width=100% /> </a>
 					</div>
 					<p dir="rtl">בלחיצה על קישור זה באפשרותך ליצור תפריט מותאם אישית לצרכיך מתוך מאגר קיים</p>
 					<div class="plus_btn">
