@@ -58,10 +58,8 @@
     <Content Include="articles.html" />
     <Content Include="menu.html" />
     <Content Include="css\camera.css" />
-    <Content Include="css\recipesmain.css" />
+    <Content Include="css\recipes.css" />
     <Content Include="css\jquery.lightbox.css" />
-    <Content Include="css\matkonim.css" />
-    <Content Include="css\recipecategory.css" />
     <Content Include="css\style.css" />
     <Content Include="Home.aspx" />
     <Content Include="images\BMIchart.gif" />

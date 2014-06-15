@@ -768,3 +768,15 @@ h2{
 	        position:relative;
 	        top:1px;
         }
+        /*BMI text*/
+        .article_main_content, .article_secondary_title, h4 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color:#564C48;
+        }
+        .article_secondary_title, h4 {
+        font-weight: bold;
+        font-size: 15px;
+        color:#564C48;
+        }
+        /*end BMI text*/
