@@ -8,10 +8,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
 <!--start lightbox -->
-<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
+<%--<link rel="stylesheet" type="text/css" href="css/jquery.lightbox.css">
 <script src="js/jquery.min.js"></script>
-<script src="js/jquery.lightbox.js"></script>
+<script src="js/jquery.lightbox.js"></script>--%>
 <script>
     // Initiate Lightbox
     $(document).ready(function () {
@@ -334,16 +335,11 @@
 				<div class="grid_1_of_3 images_1_of_3 bg1">
 					 <h3>צור תפריט אישי</h3>
 					<div class="gallery">
-						<a href="images/pic7.jpg"><img src="images/pic7.jpg" title="image-name" height="200px" width=100% /></a>
+						<a href="createMenu.aspx"><img alt="create Menu" src="images/pic7.jpg" title="image-name" height="200px" width=100% /> </a>
 					</div>
-					  <p dir="rtl">בלחיצה על קישור זה באפשרותך ליצור תפריט מותאם אישית לצרכיך מתוך מאגר קיים או באמצעות דיאטן (כרוך בתשלום)</p>
+					<p dir="rtl">בלחיצה על קישור זה באפשרותך ליצור תפריט מותאם אישית לצרכיך מתוך מאגר קיים</p>
 					<div class="plus_btn">
-<<<<<<< HEAD
 						<a href="createMenu.aspx"><span></span></a>
-=======
-						<!--<a href="menu.html"><span></span></a>-->
-                        <a href="createMenu.aspx"><span></span></a>
->>>>>>> origin/master
 					</div>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 bg2">
