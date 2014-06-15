@@ -63,6 +63,7 @@
     <Content Include="css\style.css" />
     <Content Include="Home.aspx" />
     <Content Include="images\BMIchart.gif" />
+    <Content Include="images\BMIchart1.gif" />
     <Content Include="images\graph.jpg" />
     <Content Include="images\healthTags.jpg" />
     <Content Include="images\logo1.png" />

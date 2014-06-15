@@ -12,3 +12,4 @@ C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\bin\MyHealth
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\bin\MyHealthSpot.pdb
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Debug\MyHealthSpot.dll
 C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Debug\MyHealthSpot.pdb
+C:\Users\Aliza\Documents\GitHub\MyHealthSpot\MyHealthSpot-code\sima\obj\Debug\MyHealthSpot.csprojResolveAssemblyReference.cache
