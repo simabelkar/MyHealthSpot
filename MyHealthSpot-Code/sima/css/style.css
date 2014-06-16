@@ -111,12 +111,12 @@ h2{
 /*  GRID 1 OF THREE  */
 .grids_1_of_3{
 	text-align:center;
-	padding: 4% 0;
+	padding:4% 0;
 }
 .grid_1_of_3{
 	display: block;
-	float:left;
-	margin-left: 4%;
+	float:right;
+	margin-right: 4%;
 }
 .grid_1_of_3.bg1{
 	background: #736761;
@@ -128,10 +128,10 @@ h2{
 	background: #564C48;
 }
 .grid_1_of_3:first-child { 
-	margin-left: 0; 
+	margin-right: 0; 
 } 
 .images_1_of_3 {
-	width: 30.333%;
+	width: 30%;
 	position: relative;
 	height:455px; 
 }

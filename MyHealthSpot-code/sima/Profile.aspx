@@ -111,7 +111,6 @@
 			<ul>
 			   <li ><a href="Home.aspx"><span>עמוד הבית</span></a></li>
 			    <li><a href="articles.html"><span>כתבות</span></a></li>
-                <li><a href=""><span>סרטוני וידאו</span></a></li>
                 <li><a href="UserPhotos.aspx"><span>אינסטגרם</span></a></li>
 			    <li><a href="recipes.html"><span>מתכונים</span></a></li>
 			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
@@ -357,7 +356,7 @@
 					<div class="gallery">
 						<a href="images/healthTags.jpg"><img src="images/healthTags.jpg" title="image-name" height="200px" width=100%/></a>
 					</div>
-					  <p>בלחיצה על קישור זה ניתן להזין תגיות. לפי התגיות הנבחרות, המערכת תבצע חיפוש מותאם אישית ברשת לכתבות, סרטונים והעדפות שלך, המשתמש</p>
+					  <p>בלחיצה על קישור זה ניתן להזין תגיות. לפי התגיות הנבחרות, המערכת תבצע התאמה של המאכלים המוצעים העת בניית תפריט תזונה להעדפותייך</p>
 				 	<div class="plus_btn">
 						<span></span>
 					</div>

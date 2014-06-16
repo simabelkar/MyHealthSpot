@@ -54,7 +54,6 @@
 			<ul>
 			  <li class="active"><a href="Home.aspx"><span>עמוד הבית</span></a></li>
 			    <li><a href="articles.html"><span>כתבות</span></a></li>
-                <li><a href=""><span>סרטוני וידאו</span></a></li>
                 <li><a href="UserPhotos.aspx"><span>אינסטגרם</span></a></li>
 			    <li><a href="recipes.html"><span>מתכונים</span></a></li>
 			    <li class="has-sub"><a href="forum.html"><span>פורום</span></a></li>
@@ -98,43 +97,43 @@
     
     <!--add grid-->
 	<div class="grids_1_of_3">
-        <div class="grid_1_of_3 images_1_of_3 bg3">
-		    <h3>סרטוני וידאו</h3>
-	        <div class="gallery">
-		        <a href="images/pic4.jpg"><img src="images/pic4.jpg" title="image-name" height="200px" width=100% /></a>
-		    </div>
-		    <p dir="rtl">בלחיצה על קישור זה ניתן לצפות בסרטוני וידאו המסבירים כיצד לעשות כושר באופן עצמאי</p>
-		    <div class="plus_btn">
-			    <span></span>
-		    </div>
-	    </div>
-	    <div class="grid_1_of_3 images_1_of_3 bg2">
+	    <div class="grid_1_of_3 images_1_of_3 bg1">
 			<h3>מתכונים</h3>
 		    <div class="gallery">
-			    <a href="images/pic2.jpg"><img src="images/pic2.jpg" title="image-name" height="200px" width=100% /></a>
+			    <a href="recipes.html"><img src="images/pic2.jpg" title="image-name" height="200px" width=100% /></a>
 		    </div>
 			    <p dir="rtl">בלחיצה על קישור זה ניתן לצפות במתכוני בריאות שיעזרו לכם לשמור על תזונה נכונה</p>
 	 	    <div class="plus_btn">
 			    <a href="recipes.html"><span></span></a>
 		    </div>
 	    </div>
-	    <div class="grid_1_of_3 images_1_of_3 bg1">
+	    <div class="grid_1_of_3 images_1_of_3 bg2">
 			<h3>כתבות</h3>
 		    <div class="gallery">
-			    <a href="images/pic3.jpg"><img src="images/pic3.jpg" title="image-name" height="200px" width=100% /></a>
+			    <a href="articles.html"><img src="images/pic3.jpg" title="image-name" height="200px" width=100% /></a>
 		    </div>
 			    <p dir="rtl"> בלחיצה על קישור זה ניתן לקרוא כתבות בנושאי בריאות, כושר ותזונה </p>
 		    <div class="plus_btn">
-			    <span></span>
+			    <a href="articles.html"><span></span></a>
 		    </div>
 	    </div>
+        <div class="grid_1_of_3 images_1_of_3 bg3">
+			<h3>אינסטגרם</h3>
+			<div class="gallery">
+				<a href="UserPhotos.aspx"><img alt="user photos" src="images/pic1.jpg" title="image-name" height="200px" width=100% /></a>
+			</div>
+			<p>בלחיצה על קישור זה ניתן לראות תמונות בנושאי בריאות ותזונה, שמשתמשים אחרים העלו מאפליקציית אינסטגרם</p>
+			<div class="plus_btn">
+			    <a href="UserPhotos.aspx"><span></span></a>
+			</div>
+		</div>
 	    <div class="clear"></div>
 	</div>
     <div class="grids_1_of_3">
-		<div class="grid_1_of_3 images_1_of_3 bg3">
+		<div class="grid_1_of_3 images_1_of_3 bg1">
 			<h3>פרופיל</h3>
 		    <div class="gallery">
-			    <a href="images/pic6.jpg"><img src="images/pic6.jpg" title="image-name" height="200px" width=100%/></a>
+			    <a href="Profile.aspx"><img src="images/pic6.jpg" title="image-name" height="200px" width=100%/></a>
 		    </div>
 		    <p>בלחיצה על קישור זה ניתן לצפות בפרופיל האישי המאפשר שינוי הגדרות מותאמות וביצוע פעולות אישיות</p>
 		    <div class="plus_btn">
@@ -144,21 +143,11 @@
         <div class="grid_1_of_3 images_1_of_3 bg2">
 			<h3>פורום</h3>
 			<div class="gallery">
-				<a href="images/pic5.jpg"><img src="images/pic5.jpg" title="image-name" height="200px" width=100% /></a>
+				<a href="forum.html"><img src="images/pic5.jpg" title="image-name" height="200px" width=100% /></a>
 			</div>
 			<p>בלחיצה על קישור זה ניתן לשאול שאלות בפורום על מנת להתייעץ עם משתמשים אחרים</p>
 	 		<div class="plus_btn">
 				<a href="forum.html"><span></span></a>
-			</div>
-		</div>
-        <div class="grid_1_of_3 images_1_of_3 bg1">
-			<h3>אינסטגרם</h3>
-			<div class="gallery">
-				<a href="UserPhotos.aspx"><img alt="user photos" src="images/pic1.jpg" title="image-name" height="200px" width=100% /></a>
-			</div>
-			<p>בלחיצה על קישור זה ניתן לראות תמונות בנושאי בריאות ותזונה, שמשתמשים אחרים העלו מאפליקציית אינסטגרם</p>
-			<div class="plus_btn">
-			    <a href="UserPhotos.aspx"><span></span></a>
 			</div>
 		</div>
 		<div class="clear"></div>

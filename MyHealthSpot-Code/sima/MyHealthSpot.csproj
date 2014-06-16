@@ -115,7 +115,6 @@
     <Content Include="js\jquery.lightbox.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\jquery.mobile.customized.min.js" />
-    <Content Include="profile.html" />
     <Content Include="recipes.html" />
     <Content Include="UserControl\ucMainMenu.htm" />
     <Content Include="UserControl\ucMenu.ascx" />
