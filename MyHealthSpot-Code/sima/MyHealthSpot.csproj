@@ -81,7 +81,16 @@
     <Content Include="MdlDlg.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Recipes\Categories\ChickenRecipes.html" />
-    <Content Include="Recipes\ChickenRoll.htm" />
+    <Content Include="Recipes\Categories\MeatRecipes.html" />
+    <Content Include="Recipes\chickenRoll.html" />
+    <Content Include="Recipes\chickenChimichuri.html" />
+    <Content Include="Recipes\chickenSalad.html" />
+    <Content Include="Recipes\chickenChineese.html" />
+    <Content Include="Recipes\meatBalls.html" />
+    <Content Include="Recipes\meatSinta.html" />
+    <Content Include="Recipes\meatShawarma.html" />
+    <Content Include="Recipes\template.html" />
+    <Content Include="Recipes\meatFillet.html" />
     <Content Include="Register.aspx" />
     <Content Include="details.html" />
     <Content Include="forum.html" />

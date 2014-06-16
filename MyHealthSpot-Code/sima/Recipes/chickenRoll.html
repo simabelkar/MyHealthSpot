@@ -7,6 +7,42 @@
 <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'/>
 <link href="../../css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="../css/recipesmain.css" rel="stylesheet" type="text/css" />
+<!--style for this page, don't move to recipe.css as all tags inherits from style.css -->
+<style>
+ol, ul {
+list-style: none;
+}
+ul.recipeDetails {
+height: 30px;
+margin: 12px 0 0;
+}
+ul.recipeDetails li {
+font-size: 12px;
+width: 116px;
+border: 1px solid #7cc810;
+color: #4f586c;
+text-align: center;
+float: right;
+}
+li strong {
+font-size: 12px;
+color: #232a3d;
+display: block;
+font-weight: bold;
+}
+ul.recipeIngredients li {
+background: transparent url("http://rcs.mako.co.il/images/food/boolet.jpg") no-repeat right 8px;
+border-bottom: 1px solid #7cc810;
+font-size: 12px;
+line-height: 22px;
+color: #1b1f2b;
+padding: 0 14px 0 0;
+}
+
+#fb-root{
+    margin-top: 20px;
+}
+</style>
 </head>
 <body>
 <div class="wrapper">
@@ -19,7 +55,6 @@
 			<ul>
                 <li><a href="../../Home.aspx"><span>עמוד הבית</span></a></li>
 			    <li  ><a href="../../articles.html"><span>כתבות</span></a></li>
-                <li><a href=""><span>סרטוני וידאו</span></a></li>
                 <li><a href="../../UserPhotos.aspx"><span>אינסטגרם</span></a></li>
 			    <li class="active"><a href="../../recipes.html"><span>מתכונים</span></a></li>
 			    <li><a href="../../forum.html"><span>פורום</span></a></li>
@@ -47,7 +82,6 @@
                 title="רול חזה עוף ומיונז"
             />
         </div>
-        <!-- add class -->
         <ul class="recipeDetails">
             <li>
                 <strong>זמן הכנה</strong>
@@ -66,17 +100,15 @@
                 כל אחד יכול
             </li>
         </ul>
-        <!-- add dir and br-->
-        </br>
+        <br />
         <h2 dir="rtl">
             מרכיבים (2 מנות):<a></a>
         </h2>
-        <!-- add class -->
         <ul class="recipeIngredients">
             <li>
-            </li>
-            <li>
+                <p>
                 שתי פיתות לאפה, רכות
+                </p>
             </li>
             <li>
                 100 גרם חזה עוף
@@ -100,7 +132,7 @@
                 רצועות פלפל קלוי
             </li>
         </ul>
-        <!-- add dir -->
+        <br />
         <h2 dir="rtl">
             אופן ההכנה:
         </h2>
@@ -108,18 +140,28 @@
             <p>
                 1. מבשלים את חזה העוף בסיר עם מים רותחים, מלח ופלפל כחצי שעה (לחלופין, אפשר להשתמש בחזה עוף בגריל קנוי). פורסים את החזה לפרוסות דקות.
             </p>
+           <br/>
+           <br/>
             <p>
                 2. מורחים שכבה נדיבה של מיונז על כל הפיתה, ועליה מורחים את הסחוג. מסדרים את רצועות העוף לאורך הפיתה בחלק הקרוב אליכם (משאירים שוליים ריקים).
             </p>
+           <br/>
+           <br/>
             <p>
                 3. מניחים על העוף את רצועות המלפפון והפלפל הקלוי, ומגלגלים את הפיתה לרול מהצד הקרוב אליכם וכלפי חוץ. אחרי כל חצי סיבוב מהדקים (כמו בסושי).
             </p>
+           <br/>
+           <br/>
             <p>
                 4. עוטפים את הרול בנייר אלומיניום ומצננים במקרר 3 שעות, או אפילו לילה.
             </p>
+           <br/>
+           <br/>
             <p>
                 5. חוצים באלכסון ומגישים.
             </p>
+           <br/>
+           <br/>
         </div>
     </div>
 
@@ -133,7 +175,7 @@
             js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
             fjs.parentNode.insertBefore(js, fjs);
         } (document, 'script', 'facebook-jssdk'));</script>
-    <div class="fb-comments" data-href="http://ChickenRoll.htm" data-numposts="5" data-colorscheme="light"></div>
+    <div class="fb-comments" data-href="http://chickenRoll.html" data-numposts="5" data-colorscheme="light"></div>
     </div>
 
 </div>
