@@ -9,6 +9,44 @@
 <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/recipes.css" rel="stylesheet" type="text/css" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".suggestion").show();
+        $(".1200").hide();
+        $(".1500").hide();
+        $(".1800").hide();
+
+        $("#1200a").click(function () {
+            $(".suggestion").hide();
+            $(".1200").show();
+            $(".1500").hide();
+            $(".1800").hide();
+            $("#1200a").attr('class', 'smn_txt_s');
+            $("#1500a").attr('class', 'smn_txt');
+            $("#1800a").attr('class', 'smn_txt');
+        });
+        $("#1500a").click(function () {
+            $(".suggestion").hide();
+            $(".1500").show();
+            $(".1200").hide();
+            $(".1800").hide();
+            $("#1500a").attr('class', 'smn_txt_s');
+            $("#1200a").attr('class', 'smn_txt');
+            $("#1800a").attr('class', 'smn_txt');
+        });
+        $("#1800a").click(function () {
+            $(".suggestion").hide();
+            $(".1800").show();
+            $(".1500").hide();
+            $(".1200").hide();
+            $("#1800a").attr('class', 'smn_txt_s');
+            $("#1500a").attr('class', 'smn_txt');
+            $("#1200a").attr('class', 'smn_txt');
+        });
+    });
+</script>
 </head>
 
 <body>
@@ -38,46 +76,24 @@
 		            <tbody><tr>
 		            <td class="smn" id="top_TD0">
 			            <div align="right">
-			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a href="/diets.php?mpid=18" class="smn_txt_s">תפריט 1200 קלוריות</a></td></tr></tbody></table>
+			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a id="1200a" href="#" class="smn_txt">תפריט 1200 קלוריות</a></td></tr></tbody></table>
 			              </div>
 		            </td>
 		            </tr>
 		            <tr>
 		            <td class="smn" id="top_TD1">
 			            <div align="right">
-			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a href="/diets.php?mpid=19" class="smn_txt">תפריט 1500 קלוריות</a></td></tr></tbody></table>
+			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a id="1500a" href="#" class="smn_txt">תפריט 1500 קלוריות</a></td></tr></tbody></table>
 			              </div>
 		            </td>
 		            </tr>
 		            <tr>
 		            <td class="smn" id="top_TD2">
 			            <div align="right">
-			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a href="/diets.php?mpid=809" class="smn_txt">תפריט 1800 קלוריות</a></td></tr></tbody></table>
+			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a id="1800a" href="#" class="smn_txt">תפריט 1800 קלוריות</a></td></tr></tbody></table>
 			              </div>
 		            </td>
 		            </tr>
-		            <tr>
-		            <td class="smn" id="top_TD3">
-			            <div align="right">
-			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a href="/diets.php?mpid=321" class="smn_txt">תפריט לצמחונים 1200</a></td></tr></tbody></table>
-			              </div>
-		            </td>
-		            </tr>
-		            <tr>
-		            <td class="smn" id="top_TD4">
-			            <div align="right">
-			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a href="/diets.php?mpid=312" class="smn_txt">תפריט לצמחונים 1500</a></td></tr></tbody></table>
-			              </div>
-		            </td>
-		            </tr>
-		            <tr>
-		            <td class="smn" id="top_TD5">
-			            <div align="right">
-			            <table cellpadding="0" cellspacing="0"><tbody><tr><td class="smn_bull"></td><td><a href="/diets.php?mpid=314" class="smn_txt">תפריט עשיר בברזל 1200</a></td></tr></tbody></table>
-			              </div>
-		            </td>
-		            </tr>
-
             </tbody></table>
             </div>
         </div>
@@ -147,6 +163,8 @@
                 <asp:DropDownList ID="DropDownList14" runat="server" CssClass="select">
                 <asp:ListItem></asp:ListItem>
                 </asp:DropDownList>
+                <br />
+                <span><asp:Button ID="btnSave" align="center" Text="שמור" runat="server" onclick="btnSave_Click" /></span>
             </div>
 
             <!--1500-->
@@ -280,6 +298,10 @@
                 <asp:ListItem></asp:ListItem>
                 </asp:DropDownList>
             </div>
+            <!--default text-->
+            <br/>
+            <div class="suggestion">Here are some suggestions</div>
+            <br/>
         </form>
         </div>
    

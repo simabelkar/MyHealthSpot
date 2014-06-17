@@ -135,7 +135,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="WebForm1.aspx" />
     <Content Include="createMenu.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -188,13 +187,6 @@
     </Compile>
     <Compile Include="UserPhotos.aspx.designer.cs">
       <DependentUpon>UserPhotos.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="createMenu.aspx.cs">
       <DependentUpon>createMenu.aspx</DependentUpon>

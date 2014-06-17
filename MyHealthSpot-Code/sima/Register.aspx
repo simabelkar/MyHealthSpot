@@ -21,20 +21,20 @@
 	<div class="main">
 		<div class="section group">							
 		    <div class="col span_2_of_4" align="center">
-			    <div class="signup-form">
+			    <div dir="rtl" class="signup-form">
 				  	<h1>רישום משתמש חדש</h1>
 					       <form id="f1" runat="server">
                            <table border="0" width="600px" style="margin-left:90px;">
                            <tr>
                                 <td>
                                    <div>
-						    	        <span><label>User Name</label></span>
+						    	        <span><label>שם משתמש</label></span>
 						    	        <span><input id="userName" type="text" class="textbox" runat="server" /></span>
 						            </div>
                                 </td>
 					    	    <td>
                                     <div>
-						    	        <span><label>Password</label></span>
+						    	        <span><label>סיסמה</label></span>
 						    	        <span><input id="Password" type="password" class="textbox" runat="server" /></span>
 						            </div>
                                 </td>
@@ -42,13 +42,13 @@
                             <tr>
                                 <td>    
                                     <div>
-						    	        <span><label>First Name</label></span>
+						    	        <span><label>שם פרטי</label></span>
 						    	        <span><input id="firstName" type="text" class="textbox" runat="server" /></span>
 						            </div>
                                 </td>
                                 <td>
                                     <div>
-						    	        <span><label>Last Name</label></span>
+						    	        <span><label>שם ממשפחה</label></span>
 						    	        <span><input id="lastName" type="text" class="textbox" runat="server" /></span>
 						            </div>
                                 </td>
@@ -56,30 +56,30 @@
                             <tr>
                                 <td>
 						            <div>
-						    	        <span><label>E-Mail</label></span>
+						    	        <span><label>דוא"ל</label></span>
 						    	        <span><input id="userEmail" type="text" class="textbox" runat="server" /></span>
 						            </div>
                                 </td>
                                 <td>
 						            <div>
-						     	        <span><label>Phone Number</label></span>
+						     	        <span><label>טלפון</label></span>
 						    	        <span><input id="userPhone" type="text" class="textbox" runat="server"/></span>
 						            </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="vertical-align:top;">
-                                    <img src="images/hight.jpg" width="100px" style="float:left;"/>
+                                    <img src="images/hight.jpg" width="100px" style="float:right;"/>
                                     <div>
-						     	            <span><label>Height:</label></span>
-						    	            <span><input id="Text1" type="text" class="textbox" runat="server" style="width:50px;"/></span>
+						     	            <span><label>גובה</label></span>
+						    	            <span><input id="userHeight" type="text" class="textbox" runat="server" style="width:50px;"/></span>
 						            </div>
                                 </td>     
                                 <td style="vertical-align:top;">
-                                    <img src="images/weight.jpg" width="100px" style="float:left;" />
+                                    <img src="images/weight.jpg" width="100px" style="float:right;" />
                                     <div>
-						     	          <span><label>Weight:</label></span>
-						    	          <span><input id="Text2" type="text" class="textbox" runat="server" style="width:50px;"/></span>
+						     	          <span><label>משקל</label></span>
+						    	          <span><input id="userWeight" type="text" class="textbox" runat="server" style="width:50px;"/></span>
 						            </div>
                                 </td>
                             </tr>
@@ -88,8 +88,8 @@
                             <tr>
 						         <td colspan="2">
                                     <div>
-						   		        <span><asp:Button ID="bb1" Text="שלח" runat="server" onclick="bb1_Click" />
-                                        <asp:Button ID="btnBack" Text="חזרה" runat="server" onclick="btnBack_Click" />&nbsp&nbsp&nbsp
+						   		        <span><asp:Button ID="btnSend" style="margin-right:100px" Text="שלח" runat="server" onclick="btnSend_Click" />
+                                        <asp:Button ID="btnBack" style="margin-right:100px" Text="חזרה" runat="server" onclick="btnBack_Click" />&nbsp&nbsp&nbsp
                                         <asp:Label ID="errLabel" Text="" runat="server"></asp:Label></span>
 						            </div>
                                 </td>

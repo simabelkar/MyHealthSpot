@@ -76,31 +76,31 @@ namespace MyHealthSpot {
         protected global::System.Web.UI.HtmlControls.HtmlInputText userPhone;
         
         /// <summary>
-        /// Text1 control.
+        /// userHeight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Text1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText userHeight;
         
         /// <summary>
-        /// Text2 control.
+        /// userWeight control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText Text2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText userWeight;
         
         /// <summary>
-        /// bb1 control.
+        /// btnSend control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button bb1;
+        protected global::System.Web.UI.WebControls.Button btnSend;
         
         /// <summary>
         /// btnBack control.
