@@ -146,8 +146,39 @@ namespace MyHealthSpot
         protected void btnSave_Click(object sender, EventArgs e)
         {
             String Pahmima1, Pahmima2, Pahmima3, Pahmima4;
+            String HelbonC1, HelbonC2, HelbonC3;
+            String HelbonM1;
+            String Fruit1, Fruit2, Fruit3;
+            String HalfHelbon1;
+            String Shuman1, Shuman2;
 
             //Morning
+            Pahmima1 = DropDownList1.SelectedItem.Text.ToString();
+            HelbonC1 = DropDownList2.SelectedItem.Text.ToString();
+
+            //Beinaim
+            Fruit1 = DropDownList3.SelectedItem.Text.ToString();
+
+            //Lunch
+            HelbonM1 = DropDownList4.SelectedItem.Text.ToString();
+            Pahmima2 = DropDownList5.SelectedItem.Text.ToString();
+            Shuman1 = DropDownList6.SelectedItem.Text.ToString();
+
+            //Beinaim
+            Fruit2 = DropDownList7.SelectedItem.Text.ToString();
+            Pahmima3 = DropDownList8.SelectedItem.Text.ToString();
+
+            //Dinner
+            Pahmima4 = DropDownList9.SelectedItem.Text.ToString();
+            HelbonC2 = DropDownList10.SelectedItem.Text.ToString();
+            HalfHelbon1 = DropDownList11.SelectedItem.Text.ToString();
+            Shuman2 = DropDownList12.SelectedItem.Text.ToString();
+
+            //Night
+            HelbonC3 = DropDownList13.SelectedItem.Text.ToString();
+            Fruit3 = DropDownList14.SelectedItem.Text.ToString();
+
+
         }
     }
 }

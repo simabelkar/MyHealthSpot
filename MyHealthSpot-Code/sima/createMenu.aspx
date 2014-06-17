@@ -163,8 +163,8 @@
                 <asp:DropDownList ID="DropDownList14" runat="server" CssClass="select">
                 <asp:ListItem></asp:ListItem>
                 </asp:DropDownList>
-                <br />
-                <span><asp:Button ID="btnSave" align="center" Text="שמור" runat="server" onclick="btnSave_Click" /></span>
+                <br /><br /><br />
+                <span><asp:Button ID="btnSave" style="margin-right:40%" Text="שמור" runat="server" onclick="btnSave_Click" /></span>
             </div>
 
             <!--1500-->
@@ -300,7 +300,17 @@
             </div>
             <!--default text-->
             <br/>
-            <div class="suggestion">Here are some suggestions</div>
+            <div dir="rtl" class="suggestion">
+                <h2>חשוב לדעת:</h2> 
+                <p>מומלץ להתחיל לאכול את הארוחה הראשונה תוך שעה מהקימה.</p>
+                <p>המרווח בין הארוחות נע בין שעה וחצי לשלוש שעות.</p>
+                <p>אין חשיבות לסדר הארוחות.</p>
+                <p>לא ניתן לפצל,לצרף, לדלג על ארוחות.</p>
+                <p>חשוב לשתות לפחות 2 כוסות מים כל ארוחה(ניתן להוסיף תרכיזי דיאט)</p>
+                <p>מנה מותרת בנוסף לתפריט פעם בשבוע.</p>
+                <p>ירקות חינמיים ניתן לאכול תמיד בארוחות ובין הארוחות בשפיות.</p>
+                <p>עד 4 כוסות קפה ליום + כוס חלב 1% לכל היום.</p>  
+            </div>
             <br/>
         </form>
         </div>
